@@ -1,19 +1,19 @@
 class Tamaya < Formula
   desc "Self-hosted deployment for single Linux executables over SSH"
   homepage "https://github.com/bhbs/tamaya"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/bhbs/tamaya/releases/download/v0.1.0/tamaya-aarch64-apple-darwin.tar.xz"
-    sha256 "f0a10bbad376c44802729e110d00dc170ab555a0a7eeb371213c457a1cac3a8f"
+    url "https://github.com/bhbs/tamaya/releases/download/v0.1.1/tamaya-aarch64-apple-darwin.tar.xz"
+    sha256 "af254872adda2711b21e2ddf9e4444b4d6e7d060808c190d5f8bb1c3fb941ad4"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bhbs/tamaya/releases/download/v0.1.0/tamaya-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2c5c5bf2dafa1ccebbbaf173f0dd14b846e2bb3ab8a72799374480f24851c4a6"
+      url "https://github.com/bhbs/tamaya/releases/download/v0.1.1/tamaya-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3eb9e349156943504a34a4a0ef730016f551954c76bb1db731f71fd2bd0dcfb4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bhbs/tamaya/releases/download/v0.1.0/tamaya-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ea182fedc14dfb6ef659108bbad8a1d5cf361eb005be8b2612c2052d7b556af9"
+      url "https://github.com/bhbs/tamaya/releases/download/v0.1.1/tamaya-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "bdb65df50fefeeae29de230453058836fbe7eb6495dc327e2735d27ecddfc96d"
     end
   end
   license "MIT"
