@@ -7,7 +7,7 @@ cask "floodlight" do
   desc "macOS disk usage scanner and cleanup guide"
   homepage "https://github.com/bhbs/floodlight"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Floodlight.app"
 
