@@ -1,6 +1,6 @@
 cask "floodlight" do
-  version "0.1.6"
-  sha256 "7e20457d170ce01822183313acc47c6a07735ad612134ccff80fb7f8fca16609"
+  version "0.1.7"
+  sha256 "b31e9b159872ddf8a262d2f7b9b46083b7fdd6e7056dc0f8b5b0c58ed7a84ed5"
 
   url "https://github.com/bhbs/floodlight/releases/download/v#{version}/Floodlight-#{version}-notarized.zip"
   name "Floodlight"
