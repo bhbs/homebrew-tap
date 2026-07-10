@@ -1,6 +1,6 @@
 cask "rabbit-dictionary" do
-  version "0.1.5"
-  sha256 "468bb55f591616d5388a2c5785515615716fafc51bdc4669c29368367a2e86e4"
+  version "0.1.6"
+  sha256 "d967f9960e93c22e4366bc5ec09b9da9978936d701cac79c6de42018408fcb67"
 
   url "https://github.com/bhbs/rabbit-dictionary/releases/download/v#{version}/RabbitDictionary-#{version}-notarized.zip"
   name "RabbitDictionary"
