@@ -9,7 +9,7 @@ cask "rabbit-dictionary" do
 
   depends_on macos: :tahoe
 
-  app "RabbitDictionary.app"
+  app "Rabbit Dictionary.app"
 
   zap trash: [
     "~/Library/Application Support/RabbitDictionary",
