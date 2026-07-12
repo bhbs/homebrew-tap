@@ -1,4 +1,4 @@
-cask "flatwheel" do
+cask "flat-wheel" do
   version "0.1.10"
   sha256 "5ed031aca8bc5f39a626a61ea561df1606d332c100a120c0cd30a6b66057c2af"
 
@@ -8,8 +8,6 @@ cask "flatwheel" do
   homepage "https://github.com/bhbs/flatwheel"
 
   depends_on macos: :sonoma
-
-  deprecate! date: "2026-07-12", because: "has been renamed", replacement_cask: "flat-wheel"
 
   app "Flat Wheel.app"
 
