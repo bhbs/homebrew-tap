@@ -1,6 +1,6 @@
 cask "flat-wheel" do
-  version "0.1.10"
-  sha256 "5ed031aca8bc5f39a626a61ea561df1606d332c100a120c0cd30a6b66057c2af"
+  version "0.1.11"
+  sha256 "062cd5fd8596450937f2395cda8dc0a549dca0409a98f2e1a32753e8a09550ea"
 
   url "https://github.com/bhbs/flatwheel/releases/download/v#{version}/FlatWheel-#{version}-notarized.zip"
   name "FlatWheel"
